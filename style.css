@@ -7,35 +7,48 @@
    --cor3: #208bb3;
    --cor4: #315866;
    --cor5: #125066;
+
+
+
+   --fonte-padrao: arial, verdana,helvetica, sans-serif;
+    --font-destaque:var(--cor0)
+    --fonte-android:var(--cor0)
 }
 
 * { 
+
     margin: 0px;
     padding: 0px;
 
 }
 
 body {
-    background-color: var(--cor4)
-    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao)
 }
 
 header {
-    background-color: var(--cor2)
+
+    background-color: var(--cor3);
     min-height: 100px;
     text-align: center;
     padding: 20px;
 }
-header h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor3)
+header > h1 {
+
+    color: white;
+    font-family:var(--fonte-padrao);
+    font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
+   
 }
 header > p {
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
-    color:var(--cor2)
+    color: white;
     max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
@@ -45,13 +58,16 @@ header > p {
 }
 
 nav {
-    background-color:var(--cor3)
+
+    background-color:var(--cor4);
     padding: 10px;
     box-shadow:  0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
 nav > a {
-    background-color:var(--cor4)
+
+    color: var(--cor1);
+    padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -59,6 +75,7 @@ nav > a {
     
 }
 nav > a:hover {
-    background-color:var(--cor4)
-    color:
+
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
