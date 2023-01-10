@@ -32,9 +32,9 @@ body {
 header {
 
     background-color: var(--cor3);
-    min-height: 100px;
+    min-height: 50px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 header > h1 {
 
@@ -94,6 +94,10 @@ main {
     border-bottom-right-radius: 10px
 }
 
+main mark {
+    background-color: var(--cor3);
+} 
+
 
 main  h1 {
     color: var(--cor5);
@@ -123,8 +127,8 @@ a.externo::after {
 }
 div .video {
     background-color: var(--cor5);
-    padding: 30px;
-    margin: 10px -40px 30px -40px;
+    padding: 90px;
+    margin: 30px -40px 30px -40px;
    padding-bottom: 50%;
    position: relative;
 }
@@ -155,5 +159,12 @@ footer {
     font-size: 0,3em;
     padding: 10px;
 
+}
+
+footer a {
+    background-color: var(--cor1);
+    color: var(--cor5);
+    font-size: var(--fonte-padrao);
+    font-weight:normal ;
 }
 
