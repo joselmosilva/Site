@@ -125,6 +125,11 @@ a.externo::after {
     content: '\00A0\1F517';
 
 }
+
+a.voltar::after {
+    position: relative;
+
+}
 div .video {
     background-color: var(--cor5);
     padding: 90px;
