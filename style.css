@@ -11,8 +11,8 @@
 
 
    --fonte-padrao: arial, verdana,helvetica, sans-serif;
-    --font-destaque:var(--cor0)
-    --fonte-android:var(--cor0)
+    --font-destaque: var(--cor0)
+    --fonte-padrao: var(--cor0)
 }
 
 * { 
